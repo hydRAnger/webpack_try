@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf ./build/*; webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hydRAnger",
