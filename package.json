@@ -4,7 +4,7 @@
   "description": "just try",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "rm -rf ./build/*; webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hydRAnger",
@@ -13,6 +13,7 @@
     "webpack": "^1.7.3"
   },
   "dependencies": {
-    "webpack": "^1.7.3"
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
   }
 }
