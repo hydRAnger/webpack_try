@@ -1,5 +1,8 @@
-'use strict';
+var React = require('react');
 
-var component = require('./component.js');
+var Component = require('./Component.jsx');
 
-document.body.appendChild(component());
+React.render(
+  React.createElement(Component ),
+  document.body
+);
