@@ -22,6 +22,9 @@ var config = {
     }, {
       test: /\.less$/,
       loader: 'style!css!less'
+    }, {
+      test: /\.(eot|woff|woff2|)/,
+      loader: 'file'
     }],
 
     //noParse: [pathToReact]
