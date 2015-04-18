@@ -17,8 +17,11 @@ var config = {
 
   module: {
     loaders: [{
-      test: /\.jsx$/,
+      test: /\.jsx?$/,
       loader: 'babel'
+    }, {
+      test: /\.less$/,
+      loader: 'style!css!less'
     }],
 
     //noParse: [pathToReact]

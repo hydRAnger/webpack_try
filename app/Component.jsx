@@ -1,4 +1,5 @@
 import React from 'react';
+import './style/Component.less';
 
 export default React.createClass({
   render() {
