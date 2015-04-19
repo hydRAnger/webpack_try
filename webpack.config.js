@@ -1,14 +1,7 @@
 var path = require('path');
-//var node_modules = path.resolve(__dirname, 'node_modules');
-//var pathToReact = path.resolve(node_modules, 'react/dist/react.min.js');
 
 var config = {
-  entry: path.resolve(__dirname, 'app/main.js'),
-  //resolve: {
-  //  alias: {
-  //    'react': pathToReact
-  //  }
-  //},
+  entry: path.resolve(__dirname, 'app/script/main.js'),
 
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -26,8 +19,6 @@ var config = {
       test: /\.(eot|woff|woff2|)/,
       loader: 'file'
     }],
-
-    //noParse: [pathToReact]
   }
 };
 
